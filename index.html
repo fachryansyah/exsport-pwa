@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#00897B"/>
+	<title>Exsport - Football information</title>
+	<meta name="description" content="Pwa starter kit">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+	<!-- Navigasi -->
+	<nav class="green darken-1" role="navigation">
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">Exsport</a>
+
+			<div class="container">
+				<a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+				<ul class="topnav right hide-on-med-and-down">
+					<li><a class="waves-effect" href="#match">Match</a></li>
+					<li><a class="waves-effect" href="#fav-match">Saved match</a></li>
+					<li><a class="waves-effect" href="#about">About</a></li>
+				</ul>
+				<ul class="sidenav" id="nav-mobile">
+					<li><a class="waves-effect" href="#match">Match</a></li>
+					<li><a class="waves-effect" href="#fav-match">Saved Match</a></li>
+					<li><a class="waves-effect" href="#about">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Akhir Navigasi -->
+
+	<div class="container" id="content"></div>
+
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/api.js"></script>
+	<script type="text/javascript" src="js/idb.js"></script>
+	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/notification.js"></script>
+	<script type="text/javascript">
+		// document.addEventListener("DOMContentLoaded", function() {
+		// 	getMatches();
+		// });
+	</script>
+</body>
+</html>
